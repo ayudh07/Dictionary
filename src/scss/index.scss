@@ -1,0 +1,31 @@
+@import './colors.scss';
+@import './themes.scss';
+
+
+@include themify($themes) {
+    div#main{
+        background: themed("bg");
+    }
+
+    div.toggle input[type=checkbox]{
+        background-color: themed('toggleBg');
+    }
+
+    div.theme-icon img{
+        filter: themed('themeIcon');
+    }
+
+    input.text-field{
+        border: .125rem solid themed('borderColor');
+        background-color: themed('fieldBg');
+        color: themed('text');
+    }
+
+    #basic-nav-dropdown{
+        color: themed('text')!important;
+    }
+    input.text-field::placeholder{
+        color: themed('text');
+        opacity: .25;
+    }
+};

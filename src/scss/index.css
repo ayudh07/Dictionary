@@ -1,0 +1,51 @@
+.light-theme div#main {
+  background: #ffffff;
+}
+.light-theme div.toggle input[type=checkbox] {
+  background-color: #757575;
+}
+.light-theme div.theme-icon img {
+  filter: #757575;
+}
+.light-theme input.text-field {
+  border: 0.125rem solid #757575;
+  background-color: #f4f4f4;
+  color: #2d2d2d;
+}
+.light-theme #basic-nav-dropdown {
+  color: #2d2d2d !important;
+}
+.light-theme input.text-field::-moz-placeholder {
+  color: #2d2d2d;
+  opacity: 0.25;
+}
+.light-theme input.text-field::placeholder {
+  color: #2d2d2d;
+  opacity: 0.25;
+}
+
+.dark-theme div#main {
+  background: #050505;
+}
+.dark-theme div.toggle input[type=checkbox] {
+  background-color: #a445ed;
+}
+.dark-theme div.theme-icon img {
+  filter: invert(29%) sepia(87%) saturate(2406%) hue-rotate(258deg) brightness(97%) contrast(91%);
+}
+.dark-theme input.text-field {
+  border: 0.125rem solid #a445ed;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+.dark-theme #basic-nav-dropdown {
+  color: #ffffff !important;
+}
+.dark-theme input.text-field::-moz-placeholder {
+  color: #ffffff;
+  opacity: 0.25;
+}
+.dark-theme input.text-field::placeholder {
+  color: #ffffff;
+  opacity: 0.25;
+}/*# sourceMappingURL=index.css.map */
