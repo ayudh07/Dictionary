@@ -23,6 +23,9 @@
   color: #2d2d2d;
   opacity: 0.25;
 }
+.light-theme h1.search-word {
+  color: #2d2d2d;
+}
 
 .dark-theme div#main {
   background: #050505;
@@ -48,4 +51,11 @@
 .dark-theme input.text-field::placeholder {
   color: #ffffff;
   opacity: 0.25;
+}
+.dark-theme h1.search-word {
+  color: #ffffff;
+}
+
+span.pronunciation {
+  color: #a445ed;
 }/*# sourceMappingURL=index.css.map */

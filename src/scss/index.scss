@@ -28,4 +28,11 @@
         color: themed('text');
         opacity: .25;
     }
+    h1.search-word{
+        color: themed('text');
+    }
 };
+
+span.pronunciation{
+    color:$purple;
+}

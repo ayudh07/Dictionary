@@ -48,7 +48,7 @@ function BasicExample() {
     <Navbar expand="lg" >
       <Container className='d-flex justify-content-between'>
         <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
-          <Nav className='d-flex gap-3 align-items-center'>
+          <Nav className='d-flex gap-3 flex-row align-items-center'>
             <NavDropdown title={fontFamily} id="basic-nav-dropdown" className='text-capitalize'>
               <NavDropdown.Item href="#action/3.1" onClick={() => handleFont("Mono")}>Mono</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2" onClick={() => handleFont("Serif")}>Serif</NavDropdown.Item>
