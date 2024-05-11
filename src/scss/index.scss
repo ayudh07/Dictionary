@@ -37,6 +37,10 @@
     div.divider h3{
         color: themed('text');
     }
+    div.divider hr{
+        border-color: themed('borderColor');
+    }
+
 };
 
 span.pronunciation{

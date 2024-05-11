@@ -32,6 +32,9 @@
 .light-theme div.divider h3 {
   color: #2d2d2d;
 }
+.light-theme div.divider hr {
+  border-color: #757575;
+}
 
 .dark-theme div#main {
   background: #050505;
@@ -66,6 +69,9 @@
 }
 .dark-theme div.divider h3 {
   color: #ffffff;
+}
+.dark-theme div.divider hr {
+  border-color: #a445ed;
 }
 
 span.pronunciation {
