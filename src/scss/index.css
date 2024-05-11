@@ -26,6 +26,12 @@
 .light-theme h1.search-word {
   color: #2d2d2d;
 }
+.light-theme li.meaning-item {
+  color: #2d2d2d;
+}
+.light-theme div.divider h3 {
+  color: #2d2d2d;
+}
 
 .dark-theme div#main {
   background: #050505;
@@ -53,6 +59,12 @@
   opacity: 0.25;
 }
 .dark-theme h1.search-word {
+  color: #ffffff;
+}
+.dark-theme li.meaning-item {
+  color: #ffffff;
+}
+.dark-theme div.divider h3 {
   color: #ffffff;
 }
 
