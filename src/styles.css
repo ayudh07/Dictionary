@@ -63,6 +63,13 @@ input.text-field {
   padding: 1.125rem 1.5rem;
   font-weight: 700;
 }
+
+
+input.text-field:focus-visible{
+  outline:.132rem solid #a445ed;
+}
+
+
 .error {
   border-color: #ff5252!important;
   color: #ff5252!important;

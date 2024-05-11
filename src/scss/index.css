@@ -8,7 +8,7 @@
   filter: #757575;
 }
 .light-theme input.text-field {
-  border: 0.125rem solid #757575;
+  border: none;
   background-color: #f4f4f4;
   color: #2d2d2d;
 }
@@ -33,7 +33,7 @@
   color: #2d2d2d;
 }
 .light-theme div.divider hr {
-  border-color: #757575;
+  border-color: none;
 }
 
 .dark-theme div#main {
@@ -46,7 +46,7 @@
   filter: invert(29%) sepia(87%) saturate(2406%) hue-rotate(258deg) brightness(97%) contrast(91%);
 }
 .dark-theme input.text-field {
-  border: 0.125rem solid #a445ed;
+  border: none;
   background-color: #1f1f1f;
   color: #ffffff;
 }

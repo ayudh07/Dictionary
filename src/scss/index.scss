@@ -16,7 +16,7 @@
     }
 
     input.text-field{
-        border: .125rem solid themed('borderColor');
+        border: none;
         background-color: themed('fieldBg');
         color: themed('text');
     }
