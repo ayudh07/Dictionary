@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar"
 import TextField from "./components/textfield";
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import { useDebouncedCallback } from 'use-debounce';
 import Defination from "./components/defination";
 
